@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@raza/footer": ["libs/footer/src/index.js"],
+      "@raza/header": ["libs/header/src/index.ts"],
+      "@raza/home-page": ["libs/home-page/src/index.js"],
+      "@raza/pages": ["libs/pages/src/index.js"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
